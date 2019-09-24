@@ -5790,13 +5790,20 @@
         "frames": [
           {
             "service": "Hotels_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 50,
+                "slot": "destination",
+                "start": 40
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "Long beach, CA"
+                  "Long beach, CA",
+                  "Long Beach"
                 ]
               }
             }
@@ -5884,7 +5891,8 @@
                   "the 2nd"
                 ],
                 "destination": [
-                  "Long beach, CA"
+                  "Long beach, CA",
+                  "Long Beach"
                 ],
                 "hotel_name": [
                   "Best Western of Long Beach"
@@ -31046,13 +31054,20 @@
         "frames": [
           {
             "service": "Hotels_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 31,
+                "slot": "destination",
+                "start": 29
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -31119,7 +31134,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -31183,7 +31199,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -31242,7 +31259,8 @@
               ],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -31294,7 +31312,8 @@
               ],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -31338,7 +31357,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "hotel_name": [
                   "Crowne Plaza Los Angeles Airport"
@@ -31385,7 +31405,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "hotel_name": [
                   "Crowne Plaza Los Angeles Airport"
@@ -31436,7 +31457,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "hotel_name": [
                   "Crowne Plaza Los Angeles Airport"
@@ -31501,7 +31523,8 @@
                   "today"
                 ],
                 "destination": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "hotel_name": [
                   "Crowne Plaza Los Angeles Airport"
@@ -31605,6 +31628,7 @@
                 ],
                 "destination": [
                   "LAX",
+                  "LA",
                   "Los Angeles"
                 ],
                 "hotel_name": [
@@ -31660,6 +31684,7 @@
                 ],
                 "destination": [
                   "LAX",
+                  "LA",
                   "Los Angeles"
                 ],
                 "hotel_name": [
@@ -31721,6 +31746,7 @@
                 ],
                 "destination": [
                   "LAX",
+                  "LA",
                   "Los Angeles"
                 ],
                 "hotel_name": [
@@ -47832,7 +47858,13 @@
         "frames": [
           {
             "service": "Hotels_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 47,
+                "slot": "destination",
+                "start": 39
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],
@@ -47861,7 +47893,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Okay, look for a hotel froom for me in Inverness."
+        "utterance": "Okay, look for a hotel froom for me in New York."
       },
       {
         "frames": [
@@ -80714,4 +80746,3 @@
     ]
   }
 ]
-

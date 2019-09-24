@@ -87413,7 +87413,13 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 43,
+                "slot": "location",
+                "start": 38
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
@@ -87422,7 +87428,8 @@
                   "Museum"
                 ],
                 "location": [
-                  "Paris France"
+                  "Paris France",
+                  "Paris"
                 ]
               }
             }
@@ -87483,7 +87490,8 @@
                   "Museum"
                 ],
                 "location": [
-                  "Paris France"
+                  "Paris France",
+                  "Paris"
                 ]
               }
             }
@@ -87522,7 +87530,8 @@
                   "Museum"
                 ],
                 "location": [
-                  "Paris France"
+                  "Paris France",
+                  "Paris"
                 ]
               }
             }
@@ -87551,4 +87560,3 @@
     ]
   }
 ]
-

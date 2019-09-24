@@ -15020,7 +15020,13 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 48,
+                "slot": "location",
+                "start": 35
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
@@ -24691,7 +24697,13 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 80,
+                "slot": "location",
+                "start": 73
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
@@ -24700,7 +24712,8 @@
                   "True"
                 ],
                 "location": [
-                  "Toronto, Canada"
+                  "Toronto, Canada",
+                  "Toronto"
                 ]
               }
             }
@@ -24773,7 +24786,8 @@
                   "True"
                 ],
                 "location": [
-                  "Toronto, Canada"
+                  "Toronto, Canada",
+                  "Toronto"
                 ]
               }
             }
@@ -24827,7 +24841,8 @@
                   "True"
                 ],
                 "location": [
-                  "Toronto, Canada"
+                  "Toronto, Canada",
+                  "Toronto"
                 ]
               }
             }
@@ -67553,4 +67568,3 @@
     ]
   }
 ]
-

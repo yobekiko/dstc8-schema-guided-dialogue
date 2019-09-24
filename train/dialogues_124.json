@@ -28737,13 +28737,20 @@
         "frames": [
           {
             "service": "Hotels_3",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "location",
+                "start": 37
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "Phoenix"
                 ],
                 "number_of_rooms": [
                   "2"
@@ -28809,7 +28816,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "Phoenix"
                 ],
                 "number_of_rooms": [
                   "2"
@@ -28868,7 +28876,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "Phoenix"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -28937,7 +28946,8 @@
                   "Cambria Hotel North Scottsdale Desert Ridge"
                 ],
                 "location": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "Phoenix"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -28989,7 +28999,8 @@
                   "Cambria Hotel North Scottsdale Desert Ridge"
                 ],
                 "location": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "Phoenix"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -29048,7 +29059,8 @@
                   "Cambria Hotel North Scottsdale Desert Ridge"
                 ],
                 "location": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "Phoenix"
                 ],
                 "number_of_rooms": [
                   "1"

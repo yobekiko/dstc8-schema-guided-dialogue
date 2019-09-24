@@ -17793,9 +17793,9 @@
                 "start": 22
               },
               {
-                "exclusive_end": 71,
+                "exclusive_end": 73,
                 "slot": "from_location",
-                "start": 57
+                "start": 59
               }
             ],
             "state": {
@@ -17819,7 +17819,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Not right now. On the 4th of March I need a bus for 4 to Sacramento, CA."
+        "utterance": "Not right now. On the 4th of March I need a bus for 4 from Sacramento, CA."
       },
       {
         "frames": [

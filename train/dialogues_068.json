@@ -45065,6 +45065,11 @@
                 "exclusive_end": 27,
                 "slot": "category",
                 "start": 19
+              },
+              {
+                "exclusive_end": 40,
+                "slot": "city",
+                "start": 38
               }
             ],
             "state": {
@@ -45075,7 +45080,8 @@
                   "Football"
                 ],
                 "city": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -45183,7 +45189,8 @@
                   "Football"
                 ],
                 "city": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "event_name": [
                   "Rams Vs Cardinals"
@@ -45227,7 +45234,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -45243,7 +45251,8 @@
                   "Football"
                 ],
                 "city": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ],
                 "event_name": [
                   "Rams Vs Cardinals"
@@ -45300,7 +45309,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -45316,7 +45326,8 @@
                   "1"
                 ],
                 "where_to": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -45384,7 +45395,8 @@
                   "1"
                 ],
                 "where_to": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -45431,7 +45443,8 @@
                   "1"
                 ],
                 "where_to": [
-                  "LAX"
+                  "LAX",
+                  "LA"
                 ]
               }
             }
@@ -91750,4 +91763,3 @@
     ]
   }
 ]
-

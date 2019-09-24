@@ -32972,7 +32972,13 @@
           },
           {
             "service": "Hotels_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 51,
+                "slot": "where_to",
+                "start": 43
+              }
+            ],
             "state": {
               "active_intent": "SearchHouse",
               "requested_slots": [],
@@ -47326,7 +47332,8 @@
               "requested_slots": [],
               "slot_values": {
                 "city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "date": [
                   "March 12th"
@@ -47336,13 +47343,20 @@
           },
           {
             "service": "Flights_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 50,
+                "slot": "destination_city",
+                "start": 42
+              }
+            ],
             "state": {
               "active_intent": "SearchRoundtripFlights",
               "requested_slots": [],
               "slot_values": {
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ]
               }
             }
@@ -47415,7 +47429,8 @@
                   "9th of this month"
                 ],
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "origin_city": [
                   "Los Angeles"
@@ -47506,7 +47521,8 @@
                   "9th of this month"
                 ],
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "origin_city": [
                   "Los Angeles"
@@ -47590,7 +47606,8 @@
                   "9th of this month"
                 ],
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "origin_city": [
                   "Los Angeles"
@@ -47679,7 +47696,8 @@
                   "9th of this month"
                 ],
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "origin_city": [
                   "Los Angeles"
@@ -47731,7 +47749,8 @@
                   "9th of this month"
                 ],
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "origin_city": [
                   "Los Angeles"
@@ -47790,7 +47809,8 @@
                   "9th of this month"
                 ],
                 "destination_city": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ],
                 "inbound_departure_time": [
                   "3:20 pm"
@@ -47817,6 +47837,11 @@
                 "exclusive_end": 120,
                 "slot": "rating",
                 "start": 117
+              },
+              {
+                "exclusive_end": 74,
+                "slot": "where_to",
+                "start": 66
               }
             ],
             "state": {
@@ -47830,7 +47855,8 @@
                   "4.1"
                 ],
                 "where_to": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ]
               }
             }
@@ -47892,7 +47918,8 @@
                   "4.1"
                 ],
                 "where_to": [
-                  "Portland, OR"
+                  "Portland, OR",
+                  "Portland"
                 ]
               }
             }
@@ -79093,4 +79120,3 @@
     ]
   }
 ]
-

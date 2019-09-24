@@ -29888,9 +29888,9 @@
             "service": "Flights_2",
             "slots": [
               {
-                "exclusive_end": 35,
+                "exclusive_end": 37,
                 "slot": "origin",
-                "start": 32
+                "start": 34
               }
             ],
             "state": {
@@ -29912,7 +29912,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I also want a one way flight to LAX."
+        "utterance": "I also want a one way flight from LAX."
       },
       {
         "frames": [
@@ -33903,9 +33903,9 @@
             "service": "Flights_2",
             "slots": [
               {
-                "exclusive_end": 70,
+                "exclusive_end": 72,
                 "slot": "origin",
-                "start": 64
+                "start": 66
               }
             ],
             "state": {
@@ -33932,7 +33932,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I would need a one-way flight to get there. I want to travel to London via British Airways on a premium economy ticket."
+        "utterance": "I would need a one-way flight to get there. I want to travel from London via British Airways on a premium economy ticket."
       },
       {
         "frames": [

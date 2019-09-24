@@ -19856,6 +19856,11 @@
                 "exclusive_end": 93,
                 "slot": "check_in_date",
                 "start": 86
+              },
+              {
+                "exclusive_end": 51,
+                "slot": "destination",
+                "start": 45
               }
             ],
             "state": {
@@ -19866,7 +19871,8 @@
                   "the 3rd"
                 ],
                 "destination": [
-                  "London, UK"
+                  "London, UK",
+                  "London"
                 ],
                 "number_of_days": [
                   "three"
@@ -19927,7 +19933,8 @@
                   "the 3rd"
                 ],
                 "destination": [
-                  "London, UK"
+                  "London, UK",
+                  "London"
                 ],
                 "hotel_name": [
                   "the Grosvenor Hotel"
@@ -33776,13 +33783,20 @@
         "frames": [
           {
             "service": "Hotels_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 54,
+                "slot": "destination",
+                "start": 47
+              }
+            ],
             "state": {
               "active_intent": "ReserveHotel",
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "phoenix"
                 ]
               }
             }
@@ -33840,7 +33854,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "phoenix"
                 ],
                 "hotel_name": [
                   "Ramada by Wyndham Phoenix Midtown"
@@ -33898,7 +33913,8 @@
                   "the 7th"
                 ],
                 "destination": [
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "phoenix"
                 ],
                 "hotel_name": [
                   "Ramada by Wyndham Phoenix Midtown"
@@ -33996,7 +34012,8 @@
                 ],
                 "destination": [
                   "Phoenix",
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "phoenix"
                 ],
                 "hotel_name": [
                   "Ramada By Wyndham Phoenix Midtown",
@@ -34048,7 +34065,8 @@
                 ],
                 "destination": [
                   "Phoenix",
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "phoenix"
                 ],
                 "hotel_name": [
                   "Ramada By Wyndham Phoenix Midtown",
@@ -34100,7 +34118,8 @@
                 ],
                 "destination": [
                   "Phoenix",
-                  "Phoenix, AZ"
+                  "Phoenix, AZ",
+                  "phoenix"
                 ],
                 "hotel_name": [
                   "Ramada By Wyndham Phoenix Midtown",
@@ -71571,4 +71590,3 @@
     ]
   }
 ]
-

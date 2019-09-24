@@ -52765,13 +52765,20 @@
           },
           {
             "service": "Weather_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 38,
+                "slot": "city",
+                "start": 32
+              }
+            ],
             "state": {
               "active_intent": "GetWeather",
               "requested_slots": [],
               "slot_values": {
                 "city": [
-                  "Sydney, Australia"
+                  "Sydney, Australia",
+                  "Sydney"
                 ]
               }
             }
@@ -52827,7 +52834,8 @@
               "requested_slots": [],
               "slot_values": {
                 "city": [
-                  "Sydney, Australia"
+                  "Sydney, Australia",
+                  "Sydney"
                 ]
               }
             }
@@ -73734,4 +73742,3 @@
     ]
   }
 ]
-

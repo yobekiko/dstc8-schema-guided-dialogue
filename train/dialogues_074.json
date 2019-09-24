@@ -6049,14 +6049,14 @@
             "service": "Buses_2",
             "slots": [
               {
-                "exclusive_end": 17,
+                "exclusive_end": 19,
                 "slot": "origin",
-                "start": 14
+                "start": 16
               },
               {
-                "exclusive_end": 47,
+                "exclusive_end": 49,
                 "slot": "departure_date",
-                "start": 30
+                "start": 32
               }
             ],
             "state": {
@@ -6100,7 +6100,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I am going to nyc and leaving tuesday next week and want flexible tickets"
+        "utterance": "I am going from nyc and leaving tuesday next week and want flexible tickets"
       },
       {
         "frames": [
@@ -132303,4 +132303,3 @@
     ]
   }
 ]
-

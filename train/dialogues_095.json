@@ -34771,7 +34771,13 @@
           },
           {
             "service": "Hotels_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "destination",
+                "start": 38
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],

@@ -57704,9 +57704,9 @@
                 "start": 8
               },
               {
-                "exclusive_end": 53,
+                "exclusive_end": 55,
                 "slot": "origin_city",
-                "start": 47
+                "start": 49
               }
             ],
             "state": {
@@ -57730,7 +57730,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "leaving march 5th and 2 people in the group to london"
+        "utterance": "leaving march 5th and 2 people in the group from london"
       },
       {
         "frames": [

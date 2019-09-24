@@ -35268,13 +35268,20 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 51,
+                "slot": "location",
+                "start": 41
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Long Beach, CA"
+                  "Long Beach, CA",
+                  "Long Beach"
                 ]
               }
             }
@@ -35325,7 +35332,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Long Beach, CA"
+                  "Long Beach, CA",
+                  "Long Beach"
                 ]
               }
             }
@@ -35344,7 +35352,8 @@
                   "7:50 am"
                 ],
                 "destination": [
-                  "Long Beach, CA"
+                  "Long Beach, CA",
+                  "Long Beach"
                 ],
                 "fare_type": [
                   "Economy"
@@ -58290,13 +58299,20 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "location",
+                "start": 36
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Portland, Or"
+                  "Portland, Or",
+                  "Portland"
                 ]
               }
             }
@@ -58354,7 +58370,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Portland, Or"
+                  "Portland, Or",
+                  "Portland"
                 ]
               }
             }
@@ -72663,7 +72680,13 @@
           },
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 61,
+                "slot": "location",
+                "start": 55
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
@@ -72675,7 +72698,8 @@
                   "True"
                 ],
                 "location": [
-                  "Fresno, Ca"
+                  "Fresno, Ca",
+                  "Fresno"
                 ]
               }
             }
@@ -72739,7 +72763,8 @@
                   "True"
                 ],
                 "location": [
-                  "Fresno, Ca"
+                  "Fresno, Ca",
+                  "Fresno"
                 ]
               }
             }
@@ -72758,7 +72783,8 @@
                   "7:30 am"
                 ],
                 "destination": [
-                  "Fresno, Ca"
+                  "Fresno, Ca",
+                  "Fresno"
                 ],
                 "fare_type": [
                   "Economy"
@@ -77170,7 +77196,13 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 33,
+                "slot": "location",
+                "start": 24
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
@@ -100885,13 +100917,20 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 40,
+                "slot": "location",
+                "start": 30
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Sacramento, CA"
+                  "Sacramento, CA",
+                  "Sacramento"
                 ]
               }
             }
@@ -100968,7 +101007,8 @@
                   "7:20 am"
                 ],
                 "destination": [
-                  "Sacramento, CA"
+                  "Sacramento, CA",
+                  "Sacramento"
                 ],
                 "fare_type": [
                   "Economy"
@@ -101016,7 +101056,8 @@
                   "7:20 am"
                 ],
                 "destination": [
-                  "Sacramento, CA"
+                  "Sacramento, CA",
+                  "Sacramento"
                 ],
                 "fare_type": [
                   "Economy"
@@ -104884,4 +104925,3 @@
     ]
   }
 ]
-

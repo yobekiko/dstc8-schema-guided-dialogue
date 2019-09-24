@@ -8915,9 +8915,9 @@
             "service": "Flights_2",
             "slots": [
               {
-                "exclusive_end": 45,
+                "exclusive_end": 47,
                 "slot": "origin",
-                "start": 43
+                "start": 45
               }
             ],
             "state": {
@@ -8941,7 +8941,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I would like to find rounr trip tickets to LA on Delta Airlines."
+        "utterance": "I would like to find rounr trip tickets from LA on Delta Airlines."
       },
       {
         "frames": [
@@ -15818,14 +15818,21 @@
         "frames": [
           {
             "service": "Flights_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 38,
+                "slot": "destination",
+                "start": 35
+              }
+            ],
             "state": {
               "active_intent": "SearchRoundtripFlights",
               "requested_slots": [],
               "slot_values": {
                 "destination": [
                   "ATL",
-                  "Atlanta"
+                  "Atlanta",
+                  "atl"
                 ],
                 "passengers": [
                   "3"
@@ -15903,7 +15910,8 @@
                 ],
                 "destination": [
                   "ATL",
-                  "Atlanta"
+                  "Atlanta",
+                  "atl"
                 ],
                 "origin": [
                   "paris, france"
@@ -15992,7 +16000,8 @@
                 ],
                 "destination": [
                   "ATL",
-                  "Atlanta"
+                  "Atlanta",
+                  "atl"
                 ],
                 "origin": [
                   "paris, france"
@@ -16084,7 +16093,8 @@
                 ],
                 "destination": [
                   "ATL",
-                  "Atlanta"
+                  "Atlanta",
+                  "atl"
                 ],
                 "origin": [
                   "paris, france"

@@ -57428,13 +57428,20 @@
           },
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 79,
+                "slot": "location",
+                "start": 74
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -57495,7 +57502,8 @@
               ],
               "slot_values": {
                 "location": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -57546,7 +57554,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -57582,7 +57591,8 @@
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -84806,4 +84816,3 @@
     ]
   }
 ]
-

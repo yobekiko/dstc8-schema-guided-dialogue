@@ -9717,13 +9717,20 @@
         "frames": [
           {
             "service": "Hotels_3",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "location",
+                "start": 42
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],
               "slot_values": {
                 "location": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -131952,4 +131959,3 @@
     ]
   }
 ]
-

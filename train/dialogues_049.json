@@ -5017,7 +5017,13 @@
         "frames": [
           {
             "service": "Hotels_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 45,
+                "slot": "where_to",
+                "start": 34
+              }
+            ],
             "state": {
               "active_intent": "SearchHouse",
               "requested_slots": [],
@@ -39056,7 +39062,13 @@
           },
           {
             "service": "Hotels_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 40,
+                "slot": "where_to",
+                "start": 35
+              }
+            ],
             "state": {
               "active_intent": "SearchHouse",
               "requested_slots": [],
@@ -39065,7 +39077,8 @@
                   "2"
                 ],
                 "where_to": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -39131,7 +39144,8 @@
                   "2"
                 ],
                 "where_to": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -39190,7 +39204,8 @@
                   "2"
                 ],
                 "where_to": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -39231,7 +39246,8 @@
                   "2"
                 ],
                 "where_to": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -39270,7 +39286,8 @@
                   "2"
                 ],
                 "where_to": [
-                  "Paris, France"
+                  "Paris, France",
+                  "Paris"
                 ]
               }
             }
@@ -42342,6 +42359,11 @@
                 "exclusive_end": 147,
                 "slot": "origin",
                 "start": 142
+              },
+              {
+                "exclusive_end": 62,
+                "slot": "destination",
+                "start": 53
               }
             ],
             "state": {
@@ -42352,7 +42374,8 @@
                   "United Airlines"
                 ],
                 "destination": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ],
                 "origin": [
                   "Vegas"
@@ -42365,7 +42388,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Okay, great. I'd like to book a round-trip flight to San Diego. Could you get me premium economy tickets on United Airlines. I'll be going to Vegas."
+        "utterance": "Okay, great. I'd like to book a round-trip flight to San Diego. Could you get me premium economy tickets on United Airlines. I'll be going from Vegas."
       },
       {
         "frames": [
@@ -42403,7 +42426,8 @@
                   "United Airlines"
                 ],
                 "destination": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ],
                 "origin": [
                   "Vegas"
@@ -42468,7 +42492,8 @@
                   "the 9th"
                 ],
                 "destination": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ],
                 "origin": [
                   "Vegas"
@@ -42567,7 +42592,8 @@
                   "the 9th"
                 ],
                 "destination": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ],
                 "origin": [
                   "Vegas"
@@ -42628,7 +42654,8 @@
                   "the 9th"
                 ],
                 "destination": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ],
                 "origin": [
                   "Vegas"
@@ -42687,7 +42714,8 @@
                   "the 9th"
                 ],
                 "destination": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ],
                 "origin": [
                   "Vegas"
@@ -42708,6 +42736,11 @@
                 "exclusive_end": 140,
                 "slot": "rating",
                 "start": 137
+              },
+              {
+                "exclusive_end": 69,
+                "slot": "where_to",
+                "start": 60
               }
             ],
             "state": {
@@ -42724,7 +42757,8 @@
                   "4.2"
                 ],
                 "where_to": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ]
               }
             }
@@ -42789,7 +42823,8 @@
                   "4.2"
                 ],
                 "where_to": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ]
               }
             }
@@ -42854,7 +42889,8 @@
                   "4.2"
                 ],
                 "where_to": [
-                  "SD"
+                  "SD",
+                  "San Diego"
                 ]
               }
             }
@@ -63510,6 +63546,11 @@
                 "exclusive_end": 77,
                 "slot": "return_date",
                 "start": 69
+              },
+              {
+                "exclusive_end": 44,
+                "slot": "destination",
+                "start": 39
               }
             ],
             "state": {
@@ -63527,7 +63568,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Can you find me a round trip flight to delhi that will retun back on the 13th?"
+        "utterance": "Can you find me a round trip flight to Delhi that will retun back on the 13th?"
       },
       {
         "frames": [
@@ -64742,7 +64783,13 @@
           },
           {
             "service": "Flights_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 39,
+                "slot": "destination",
+                "start": 32
+              }
+            ],
             "state": {
               "active_intent": "SearchRoundtripFlights",
               "requested_slots": [],
@@ -64751,7 +64798,8 @@
                   "United Airlines"
                 ],
                 "destination": [
-                  "Toronto, Ontario"
+                  "Toronto, Ontario",
+                  "Toronto"
                 ]
               }
             }
@@ -64796,7 +64844,8 @@
                   "United Airlines"
                 ],
                 "destination": [
-                  "Toronto, Ontario"
+                  "Toronto, Ontario",
+                  "Toronto"
                 ],
                 "origin": [
                   "Atlanta, GA"
@@ -64856,7 +64905,8 @@
                   "March 4th"
                 ],
                 "destination": [
-                  "Toronto, Ontario"
+                  "Toronto, Ontario",
+                  "Toronto"
                 ],
                 "origin": [
                   "Atlanta, GA"
@@ -64949,7 +64999,8 @@
                   "March 4th"
                 ],
                 "destination": [
-                  "Toronto, Ontario"
+                  "Toronto, Ontario",
+                  "Toronto"
                 ],
                 "origin": [
                   "Atlanta, GA"
@@ -65003,7 +65054,8 @@
                   "March 4th"
                 ],
                 "destination": [
-                  "Toronto, Ontario"
+                  "Toronto, Ontario",
+                  "Toronto"
                 ],
                 "origin": [
                   "Atlanta, GA"
@@ -65081,7 +65133,8 @@
               "requested_slots": [],
               "slot_values": {
                 "where_to": [
-                  "Toronto, Ontario"
+                  "Toronto, Ontario",
+                  "Toronto"
                 ]
               }
             }
@@ -78810,4 +78863,3 @@
     ]
   }
 ]
-

@@ -29075,13 +29075,20 @@
           },
           {
             "service": "Services_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 37,
+                "slot": "appointment_date",
+                "start": 34
+              }
+            ],
             "state": {
               "active_intent": "BookAppointment",
               "requested_slots": [],
               "slot_values": {
                 "appointment_date": [
-                  "next Thursday"
+                  "next Thursday",
+                  "7th"
                 ],
                 "city": [
                   "Santa Rosa"
@@ -29132,7 +29139,8 @@
               "requested_slots": [],
               "slot_values": {
                 "appointment_date": [
-                  "next Thursday"
+                  "next Thursday",
+                  "7th"
                 ],
                 "appointment_time": [
                   "15:30"
@@ -29219,7 +29227,8 @@
               "slot_values": {
                 "appointment_date": [
                   "March 7th",
-                  "next Thursday"
+                  "next Thursday",
+                  "7th"
                 ],
                 "appointment_time": [
                   "15:45"
@@ -29288,7 +29297,8 @@
               "slot_values": {
                 "appointment_date": [
                   "March 7th",
-                  "next Thursday"
+                  "next Thursday",
+                  "7th"
                 ],
                 "appointment_time": [
                   "15:45",
@@ -29340,7 +29350,8 @@
               "slot_values": {
                 "appointment_date": [
                   "March 7th",
-                  "next Thursday"
+                  "next Thursday",
+                  "7th"
                 ],
                 "appointment_time": [
                   "15:45",
@@ -29398,7 +29409,8 @@
               "slot_values": {
                 "appointment_date": [
                   "March 7th",
-                  "next Thursday"
+                  "next Thursday",
+                  "7th"
                 ],
                 "appointment_time": [
                   "15:45",
@@ -52786,6 +52798,11 @@
                 "exclusive_end": 65,
                 "slot": "date",
                 "start": 56
+              },
+              {
+                "exclusive_end": 52,
+                "slot": "city",
+                "start": 39
               }
             ],
             "state": {
@@ -69054,6 +69071,11 @@
                 "exclusive_end": 59,
                 "slot": "date",
                 "start": 50
+              },
+              {
+                "exclusive_end": 46,
+                "slot": "city",
+                "start": 34
               }
             ],
             "state": {
@@ -78109,4 +78131,3 @@
     ]
   }
 ]
-

@@ -27072,13 +27072,20 @@
         "frames": [
           {
             "service": "Calendar_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 25,
+                "slot": "event_date",
+                "start": 22
+              }
+            ],
             "state": {
               "active_intent": "GetAvailableTime",
               "requested_slots": [],
               "slot_values": {
                 "event_date": [
-                  "March 4th"
+                  "March 4th",
+                  "4th"
                 ]
               }
             }
@@ -27162,7 +27169,8 @@
                   "Phoenix"
                 ],
                 "date": [
-                  "March 4th"
+                  "March 4th",
+                  "4th"
                 ],
                 "event_name": [
                   "Diamondbacks vs Reds"
@@ -27246,7 +27254,8 @@
                   "Phoenix"
                 ],
                 "date": [
-                  "March 4th"
+                  "March 4th",
+                  "4th"
                 ],
                 "event_name": [
                   "Diamondbacks vs Reds"
@@ -27306,7 +27315,8 @@
                   "Phoenix"
                 ],
                 "date": [
-                  "March 4th"
+                  "March 4th",
+                  "4th"
                 ],
                 "event_name": [
                   "Diamondbacks vs Reds"
@@ -27351,7 +27361,8 @@
                   "Phoenix"
                 ],
                 "date": [
-                  "March 4th"
+                  "March 4th",
+                  "4th"
                 ],
                 "event_name": [
                   "Diamondbacks vs Reds"

@@ -73015,14 +73015,21 @@
         "frames": [
           {
             "service": "Hotels_3",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 57,
+                "slot": "location",
+                "start": 49
+              }
+            ],
             "state": {
               "active_intent": "SearchHotel",
               "requested_slots": [],
               "slot_values": {
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73125,7 +73132,8 @@
               "slot_values": {
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73197,7 +73205,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73254,7 +73263,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73355,7 +73365,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73408,7 +73419,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73473,7 +73485,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ],
                 "number_of_rooms": [
                   "1"
@@ -73542,7 +73555,8 @@
               "slot_values": {
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ]
               }
             }
@@ -73600,7 +73614,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ]
               }
             }
@@ -73661,7 +73676,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ]
               }
             }
@@ -73719,7 +73735,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ]
               }
             }
@@ -73762,7 +73779,8 @@
                 ],
                 "location": [
                   "SFO",
-                  "San Francisco"
+                  "San Francisco",
+                  "San Fran"
                 ]
               }
             }
@@ -110178,4 +110196,3 @@
     ]
   }
 ]
-

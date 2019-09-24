@@ -25428,13 +25428,20 @@
           },
           {
             "service": "Events_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 89,
+                "slot": "city",
+                "start": 87
+              }
+            ],
             "state": {
               "active_intent": "FindEvents",
               "requested_slots": [],
               "slot_values": {
                 "city": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ]
               }
             }
@@ -25470,7 +25477,8 @@
               "requested_slots": [],
               "slot_values": {
                 "city": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ],
                 "event_type": [
                   "Sports"
@@ -25529,7 +25537,8 @@
               "requested_slots": [],
               "slot_values": {
                 "city": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ],
                 "event_name": [
                   "Dodgers VS Cubs"
@@ -25548,7 +25557,8 @@
               "requested_slots": [],
               "slot_values": {
                 "where_to": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ]
               }
             }
@@ -25611,7 +25621,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ]
               }
             }
@@ -25624,7 +25635,8 @@
               "requested_slots": [],
               "slot_values": {
                 "where_to": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ]
               }
             }
@@ -25666,7 +25678,8 @@
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ],
                 "origin": [
                   "Anaheim"
@@ -25716,7 +25729,8 @@
                   "March 1st"
                 ],
                 "destination": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ],
                 "origin": [
                   "Anaheim"
@@ -25795,7 +25809,8 @@
                   "6:10 am"
                 ],
                 "destination": [
-                  "Los Angeles"
+                  "Los Angeles",
+                  "LA"
                 ],
                 "fare_type": [
                   "Economy"
@@ -80703,9 +80718,9 @@
             "service": "Flights_2",
             "slots": [
               {
-                "exclusive_end": 38,
+                "exclusive_end": 40,
                 "slot": "origin",
-                "start": 29
+                "start": 31
               }
             ],
             "state": {
@@ -80730,7 +80745,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Find me an economy ticket to Vancouver"
+        "utterance": "Find me an economy ticket from Vancouver"
       },
       {
         "frames": [
@@ -91945,4 +91960,3 @@
     ]
   }
 ]
-

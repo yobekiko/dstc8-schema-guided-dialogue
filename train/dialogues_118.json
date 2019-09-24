@@ -17105,6 +17105,11 @@
                 "exclusive_end": 100,
                 "slot": "departure_date",
                 "start": 91
+              },
+              {
+                "exclusive_end": 31,
+                "slot": "destination",
+                "start": 23
               }
             ],
             "state": {
@@ -17115,7 +17120,8 @@
                   "March 3rd"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "fare_type": [
                   "Economy"
@@ -17166,7 +17172,8 @@
                   "March 3rd"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "fare_type": [
                   "Economy"
@@ -17244,7 +17251,8 @@
                   "8:30 am"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "fare_type": [
                   "Economy"
@@ -17297,7 +17305,8 @@
                   "8:30 am"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "fare_type": [
                   "Economy"
@@ -17351,7 +17360,8 @@
                   "2nd of this month"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "origin": [
                   "Philly"
@@ -17410,7 +17420,8 @@
                   "2nd of this month"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "origin": [
                   "Philly"
@@ -17510,7 +17521,8 @@
                   "2nd of this month"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "origin": [
                   "Philly"
@@ -17564,7 +17576,8 @@
                   "2nd of this month"
                 ],
                 "destination": [
-                  "New York City"
+                  "New York City",
+                  "New York"
                 ],
                 "origin": [
                   "Philly"
@@ -103320,4 +103333,3 @@
     ]
   }
 ]
-

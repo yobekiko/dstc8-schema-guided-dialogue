@@ -34142,7 +34142,13 @@
         "frames": [
           {
             "service": "Travel_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 69,
+                "slot": "location",
+                "start": 61
+              }
+            ],
             "state": {
               "active_intent": "FindAttractions",
               "requested_slots": [],
@@ -99229,4 +99235,3 @@
     ]
   }
 ]
-

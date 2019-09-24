@@ -33815,13 +33815,20 @@
         "frames": [
           {
             "service": "Buses_2",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 32,
+                "slot": "destination",
+                "start": 23
+              }
+            ],
             "state": {
               "active_intent": "FindBus",
               "requested_slots": [],
               "slot_values": {
                 "destination": [
-                  "Vancouver, BC"
+                  "Vancouver, BC",
+                  "Vancouver"
                 ],
                 "origin": [
                   "Seattle"
@@ -33877,7 +33884,8 @@
                   "the 4th"
                 ],
                 "destination": [
-                  "Vancouver, BC"
+                  "Vancouver, BC",
+                  "Vancouver"
                 ],
                 "origin": [
                   "Seattle"
@@ -33949,7 +33957,8 @@
                   "6:40 am"
                 ],
                 "destination": [
-                  "Vancouver, BC"
+                  "Vancouver, BC",
+                  "Vancouver"
                 ],
                 "fare_type": [
                   "Economy"
@@ -33999,7 +34008,8 @@
                   "6:40 am"
                 ],
                 "destination": [
-                  "Vancouver, BC"
+                  "Vancouver, BC",
+                  "Vancouver"
                 ],
                 "fare_type": [
                   "Economy"

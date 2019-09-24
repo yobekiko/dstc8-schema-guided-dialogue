@@ -85905,13 +85905,20 @@
           },
           {
             "service": "Calendar_1",
-            "slots": [],
+            "slots": [
+              {
+                "exclusive_end": 56,
+                "slot": "event_date",
+                "start": 53
+              }
+            ],
             "state": {
               "active_intent": "GetAvailableTime",
               "requested_slots": [],
               "slot_values": {
                 "event_date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ]
               }
             }
@@ -85979,7 +85986,8 @@
               "requested_slots": [],
               "slot_values": {
                 "event_date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ]
               }
             }
@@ -85995,7 +86003,8 @@
                   "Chicago"
                 ],
                 "date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ],
                 "event_name": [
                   "Timmy Trumpet"
@@ -86032,7 +86041,8 @@
                 "act": "CONFIRM",
                 "slot": "date",
                 "values": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ]
               },
               {
@@ -86079,7 +86089,8 @@
                   "Chicago"
                 ],
                 "date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ],
                 "event_name": [
                   "Timmy Trumpet"
@@ -86127,7 +86138,8 @@
                   "Chicago"
                 ],
                 "date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ],
                 "event_name": [
                   "Timmy Trumpet"
@@ -86192,7 +86204,8 @@
                   "Chicago"
                 ],
                 "date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ],
                 "event_name": [
                   "Timmy Trumpet"
@@ -86237,7 +86250,8 @@
                   "Chicago"
                 ],
                 "date": [
-                  "March 1st"
+                  "March 1st",
+                  "1st"
                 ],
                 "event_name": [
                   "Timmy Trumpet"
