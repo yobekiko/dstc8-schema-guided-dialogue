@@ -57177,9 +57177,9 @@
             "service": "Hotels_1",
             "slots": [
               {
-                "exclusive_end": 35,
+                "exclusive_end": 58,
                 "slot": "number_of_days",
-                "start": 32
+                "start": 59
               },
               {
                 "exclusive_end": 110,
@@ -68692,7 +68692,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Okay, sounds great. Could you book me a room at a one star hotel there? I need wifi."
+        "utterance": "Okay, sounds great. Could you book me one room at a one star hotel there? I need wifi."
       },
       {
         "frames": [
@@ -85870,4 +85870,3 @@
     ]
   }
 ]
-

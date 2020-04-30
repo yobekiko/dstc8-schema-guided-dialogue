@@ -59413,9 +59413,9 @@
             "service": "Hotels_1",
             "slots": [
               {
-                "exclusive_end": 40,
+                "exclusive_end": 45,
                 "slot": "number_of_days",
-                "start": 37
+                "start": 42
               }
             ],
             "state": {
@@ -59439,7 +59439,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "That'll work. I want to book one for one day."
+        "utterance": "That'll work. I want to book one room for one day."
       },
       {
         "frames": [

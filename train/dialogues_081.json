@@ -77940,7 +77940,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I want hotel in san fran for two rooms and two stars"
+        "utterance": "I want hotel in san fran for two rooms and two star"
       },
       {
         "frames": [
@@ -131109,9 +131109,9 @@
             "service": "Hotels_1",
             "slots": [
               {
-                "exclusive_end": 66,
+                "exclusive_end": 71,
                 "slot": "destination",
-                "start": 53
+                "start": 58
               }
             ],
             "state": {
@@ -131132,7 +131132,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I am looking for two room in a two hotel which is in New York City."
+        "utterance": "I am looking for two room in a two star hotel which is in New York City."
       },
       {
         "frames": [
@@ -138298,4 +138298,3 @@
     ]
   }
 ]
-

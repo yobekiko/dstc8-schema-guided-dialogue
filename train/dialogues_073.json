@@ -108510,7 +108510,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Very good. Get 1 room for me there preferably in 1 hotel with wifi and 4 star status."
+        "utterance": "Very good. Get 1 room for me there preferably in 1 hotel with wifi and 1 star status."
       },
       {
         "frames": [
@@ -131952,4 +131952,3 @@
     ]
   }
 ]
-

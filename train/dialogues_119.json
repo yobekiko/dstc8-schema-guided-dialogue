@@ -66250,7 +66250,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "2 rooms 2 baths"
+        "utterance": "2 bedrooms 2 baths"
       },
       {
         "frames": [
@@ -87551,4 +87551,3 @@
     ]
   }
 ]
-

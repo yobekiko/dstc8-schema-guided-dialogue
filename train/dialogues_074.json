@@ -29593,7 +29593,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "No I do not and I want 1 room for 1"
+        "utterance": "No I do not and I want 1 room for 1 star"
       },
       {
         "frames": [
@@ -132303,4 +132303,3 @@
     ]
   }
 ]
-
