@@ -52109,9 +52109,9 @@
             "service": "Hotels_1",
             "slots": [
               {
-                "exclusive_end": 80,
+                "exclusive_end": 64,
                 "slot": "number_of_days",
-                "start": 77
+                "start": 63
               },
               {
                 "exclusive_end": 121,

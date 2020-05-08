@@ -90676,9 +90676,9 @@
             "service": "Hotels_2",
             "slots": [
               {
-                "exclusive_end": 67,
+                "exclusive_end": 68,
                 "slot": "rating",
-                "start": 64
+                "start": 65
               }
             ],
             "state": {
@@ -90723,7 +90723,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "Thank you. I would like to find a house for three peope that is 3.9 ratings or more."
+        "utterance": "Thank you. I would like to find a house for three people that is 3.9 ratings or more."
       },
       {
         "frames": [

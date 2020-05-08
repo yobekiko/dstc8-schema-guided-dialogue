@@ -28072,7 +28072,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "It should have 2 bed rooms and baths. also pet should allowed"
+        "utterance": "It should have 2 bed rooms and 2 baths. also pet should allowed"
       },
       {
         "frames": [
@@ -29971,7 +29971,7 @@
           }
         ],
         "speaker": "USER",
-        "utterance": "I want to find an apartment with three bedrooms and baths."
+        "utterance": "I want to find an apartment with three bedrooms and three baths."
       },
       {
         "frames": [
